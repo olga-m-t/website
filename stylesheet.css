@@ -1,6 +1,28 @@
    body { 
-               background-color:#CC9966;
-               color:#70003D;
-               font-family:arial, helvetica, sans-serif;
-            } 
-      
+       background-color:#70737c;
+      color: #181821;
+      font-family:arial, helvetica, sans-serif;
+       } 
+   .header_1 {
+      justify-content: center;
+      display: flex;
+            background-color: rgb(198, 197, 204);
+
+   }
+   .header_2 {
+      justify-content: center;
+      display: flex;
+   }
+      .container {
+       flex-direction: column; 
+      justify-content: flex-end;
+      display: flex;
+        }
+   .image {
+   display: flex;
+   justify-content: center;
+}
+ img {
+   max-width: 25%;
+    height: auto;
+ }
