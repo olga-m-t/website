@@ -1,22 +1,26 @@
    body { 
-       background-color:#70737c;
+       background-color:#ffffff;
       color: #181821;
       font-family:arial, helvetica, sans-serif;
        } 
    .header_1 {
       justify-content: center;
       display: flex;
-            background-color: rgb(198, 197, 204);
+            background-color: rgb(161, 159, 175);
+            margin: 10px
 
    }
    .header_2 {
       justify-content: center;
+      flex-direction: row;
       display: flex;
    }
       .container {
        flex-direction: column; 
       justify-content: flex-end;
       display: flex;
+      background-color: rgb(127, 126, 133);
+      margin: 10px
         }
    .image {
    display: flex;
