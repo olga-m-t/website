@@ -1,32 +1,42 @@
    body { 
        background-color:#ffffff;
-      color: #181821;
-      font-family:arial, helvetica, sans-serif;
-       } 
+      color: #351b12;
+       font-family: "Courier New", monospace;
+       letter-spacing: 2px;
+}
+
    .header_1 {
       justify-content: center;
       display: flex;
-            background-color: rgb(161, 159, 175);
+            background-color: rgb(205, 215, 226);
             margin: 10px
-
-   }
-   .header_2 {
-      justify-content: center;
-      flex-direction: row;
-      display: flex;
-   }
-      .container {
-       flex-direction: column; 
-      justify-content: flex-end;
-      display: flex;
-      background-color: rgb(127, 126, 133);
-      margin: 10px
-        }
-   .image {
-   display: flex;
-   justify-content: center;
 }
  img {
    max-width: 25%;
     height: auto;
  }
+
+.navbar {
+    background-color: rgb(205, 215, 226);
+    padding: 20px 40px;
+}
+.nav_container{
+   display: flex;
+   justify-content: space-between;  /* pushes left + right apart */
+   align-items: center;
+}
+.header_2{
+   display: flex;
+   justify-content: center;
+}
+.hi{ /*for the text that says hi im olga and and also the pic! */
+   display: flex;
+   justify-content: center;
+}
+/*footer !!! all the way at the bottom*/
+footer{
+   background-color:rgb(205, 215, 226);
+      color: #351b12;
+       font-family: "Courier New", monospace;
+       letter-spacing: 2px;
+}
