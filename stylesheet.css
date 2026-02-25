@@ -1,15 +1,14 @@
+   * { /* apparently this is helpful?*/
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
    body { 
        background-color:#ffffff;
       color: #351b12;
-       font-family: "Courier New", monospace;
+       font-family:'Inter', sans-serif;
        letter-spacing: 2px;
-}
-
-   .header_1 {
-      justify-content: center;
-      display: flex;
-            background-color: rgb(205, 215, 226);
-            margin: 10px
+        font-weight: 300;
 }
  img {
    max-width: 25%;
@@ -25,13 +24,29 @@
    justify-content: space-between;  /* pushes left + right apart */
    align-items: center;
 }
-.header_2{
-   display: flex;
-   justify-content: center;
+nav a {
+   text-decoration: none;
+   color: #351b12;
+   margin-left: 25px;
 }
 .hi{ /*for the text that says hi im olga and and also the pic! */
+   padding-top: 150px;
    display: flex;
-   justify-content: center;
+   flex-direction: column;   /* stack vertically */
+   align-items: center;      /* center horizontally */
+   text-align: center;
+   font-size: 72px;
+   font-weight: normal;
+   margin: 40px;
+}
+.image{
+   margin: 40px;
+}
+.tagline{
+    text-align: center;
+   font-size: 22px;
+      padding-bottom: 140px;
+
 }
 /*footer !!! all the way at the bottom*/
 footer{
@@ -39,4 +54,22 @@ footer{
       color: #351b12;
        font-family: "Courier New", monospace;
        letter-spacing: 2px;
+       position: relative;      /* yuh */
+    min-height: 200px;       /*  footer taller */
+    padding: 40px;
+}
+
+.top {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
 }
