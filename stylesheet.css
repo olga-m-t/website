@@ -29,6 +29,14 @@ nav a {
    color: #351b12;
    margin-left: 25px;
 }
+.logo a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.25s ease
+}
+.logo a:hover {
+   color:#878787
+}
 .hi{ /*for the text that says hi im olga and and also the pic! */
    padding-top: 150px;
    display: flex;
